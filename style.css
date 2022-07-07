@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter';
+    background-color: black;
+}
+
+header {
+    color: white;
+    font-size: 45px;
+    padding: 30px 0;
+}
+
+h1 {
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+}
+
+.box {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 180px;
+}
+
+h1:hover {
+    color: #00FFFF;
+    transform: scale(0.5);
+}
